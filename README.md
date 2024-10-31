@@ -1,2 +1,7 @@
-# erpnext-utilities
-Repository with general utilities for erpnext
+## Erpnext Utilities
+
+general utilities for erpnext
+
+#### License
+
+MIT
