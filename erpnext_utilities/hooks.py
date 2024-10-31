@@ -127,23 +127,11 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"erpnext_utilities.tasks.all"
-# 	],
-# 	"daily": [
-# 		"erpnext_utilities.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"erpnext_utilities.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"erpnext_utilities.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"erpnext_utilities.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+    "hourly": [
+        "erpnext_utilities.cleanup.clear_invoice_missing_error_logs"
+    ]
+}
 
 # Testing
 # -------
